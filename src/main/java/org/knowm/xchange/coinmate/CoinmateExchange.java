@@ -63,6 +63,7 @@ public class CoinmateExchange extends BaseExchange implements Exchange {
     exchangeSpecification.setPort(80);
     exchangeSpecification.setExchangeName("CoinMate");
     exchangeSpecification.setExchangeDescription("Bitcoin trading made simple.");
+    exchangeSpecification.setShouldLoadRemoteMetaData(false);
 
     return exchangeSpecification;
   }
